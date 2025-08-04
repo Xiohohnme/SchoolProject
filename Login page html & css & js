@@ -42,7 +42,7 @@
 </html>
 
 
-[ < DO NOT COPY THIS  [CSS LINE ZONE] > ]
+[ < DO NOT COPY THIS TEXT PUT IT ON .CSS FILE [CSS LINE ZONE] > ]
 
 
 body {
@@ -137,7 +137,7 @@ button:hover {
   border-radius: 5px;
 }
 
-[ < DO NOT COPY THIS (Java script Zone) ]
+[ < DO NOT COPY THIS TEXT PUT IT ON .JS FILE (Java script Zone) ]
 
   document.getElementById("loginForm").addEventListener("submit", function(event) {
     event.preventDefault();
@@ -161,7 +161,7 @@ button:hover {
     // If all checks pass
     errorMessage.textContent = "";
     localStorage.setItem("loggedIn", "true");
-    window.location.href = "main.html";
+    window.location.href = "main.html";  [ change the "main.html" into your file .html DO NOT COPY THIS TEXT]
   });
   
 
